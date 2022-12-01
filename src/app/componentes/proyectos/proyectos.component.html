@@ -1,0 +1,44 @@
+<section id="contenido">
+<section id="proyectos">
+    <h1>Proyectos</h1>    
+<ul style="list-style-type:none">  <li *ngFor="let video of videolist">
+<section id="animation">
+    <video [src]="video.vid" controls></video>
+        <div class="emp"><h3>{{video.nombre}}</h3>
+          <ul> <li>{{video.dato1}}</li>
+            <li>{{video.dato2}}</li>
+            <li>{{video.dato3}}</li>
+            <li>{{video.dato4}}</li>
+          </ul> 
+        </div>
+</section>
+     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <a [href]="video.linkboton"><button class="btn me-md-2" type="button">{{video.nombreboton}}</button></a>
+     </div> 
+    </li>
+</ul>
+
+<ul style="list-style-type:none"> 
+  <li *ngFor="let proyectos of proyectoslist">
+<section id="ilustracion">
+  <img id="hada" [src]="proyectos.img" alt="posavasos">
+  <div class="emp"><h3>{{proyectos.nombre}}</h3>
+    <ul> <li>{{proyectos.dato1}}</li>
+          <li>{{proyectos.dato2}}</li>
+          <li>{{proyectos.dato3}}</li>
+          <li>{{proyectos.dato4}}</li>
+          
+   </ul> 
+  </div>
+</section>    
+    
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <a [href]="proyectos.linkboton" target="_blank">
+        <button class="btn me-md-2" type="button">{{proyectos.nombreboton}}</button> </a>
+      </div>
+   
+</li>
+</ul>
+
+</section>
+</section>

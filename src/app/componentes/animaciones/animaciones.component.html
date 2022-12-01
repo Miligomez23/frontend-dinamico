@@ -1,0 +1,28 @@
+<section id="contenido">
+<h1>Animaciones</h1>
+<section id="animaciones">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    
+   <div class="col" *ngFor="let animaciones of animacioneslist" >
+      <div class="card h-100">
+        <video [src]="animaciones.img" controls class="card-img-top"></video>
+        <div class="card-body">
+          <h5 class="card-title">{{animaciones.nombre}}</h5>
+          <p class="card-text"> {{animaciones.detalle}}</p>
+        </div>
+      </div>
+    </div> 
+
+    <div class="col" *ngFor="let gift of giftlist" >
+      <div class="card h-100">
+        <img [src]="gift.img" alt="" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">{{gift.nombre}}</h5>
+          <p class="card-text"> {{gift.detalle}}</p>
+        </div>
+      </div>
+    </div> 
+    
+  </div>
+</section>
+</section>

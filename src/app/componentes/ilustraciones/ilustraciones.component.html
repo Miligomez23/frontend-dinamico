@@ -1,0 +1,16 @@
+<section id="contenido">
+<section id="ilustraciones">
+    <h1>Ilustraciones</h1> 
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let ilustraciones of ilustracioneslist">
+      <div class="card h-100">
+        <img [src]="ilustraciones.img" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{ilustraciones.nombre}}</h5>
+          <p class="card-text">{{ilustraciones.detalle}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+</section>

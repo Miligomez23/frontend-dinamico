@@ -1,0 +1,15 @@
+<section id="contenido">
+<section id="FormacionAcademica">
+    <h1>Formación Académica</h1>
+        <ul style="list-style-type: none">
+           <li *ngFor="let formacion of formacionlist">
+            <h3><small> {{formacion.curso}} </small> {{formacion.titulo}}</h3>
+             <div class="contenedor"><img [src]="formacion.img" alt="argentinaprogramalogo"class="imgacademic">
+                <ul class="listas"><li>{{formacion.finalizado}}</li> 
+                   <li>{{formacion.dequien}}</li>
+                </ul> 
+            </div>
+            </li> 
+        </ul>
+ </section>
+</section>

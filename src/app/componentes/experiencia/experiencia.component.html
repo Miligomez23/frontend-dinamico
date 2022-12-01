@@ -1,0 +1,15 @@
+<section id="contenido">
+<section id="experiencia">
+    <div><h1>Experiencia</h1></div>
+        <ul style="list-style-type: none">
+            <li *ngFor="let experiencia of experiencialist" ><h3>{{experiencia.lugar}}</h3>
+              <div class="contenedor"><img [src]="experiencia.img" alt="logoatlyshop" />
+                  <ul class="listas"><li>{{experiencia.donde}}</li>
+                        <li>{{experiencia.puesto}}</li>  
+                        <li>{{experiencia.actividades}}</li>
+                 </ul> 
+              </div>
+            </li>
+        </ul>  
+</section>
+</section>

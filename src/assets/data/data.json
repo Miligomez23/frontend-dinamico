@@ -1,0 +1,251 @@
+{ 
+  "bannerimg":"assets/img/LOGO.jpg",
+  "imgpersona":"assets/img/mili.png",
+    "name": "Milagros Gomez",
+    "alias": "/Alias: ATLY",
+    "titulo": "Full Stack Developer Jr",
+    "acercademi": "Tengo 18 años, soy una persona responsable y puntual, con alta capacidad de solución de problemas, y mucha creatividad. Me dedico a la animación, ilustración y programación.",
+    "experiencia": [
+      {
+        "lugar": "MicroEmprendimiento Personal",
+        "img":"assets/img/LOGO.jpg" ,
+        "donde": "AtlyShop desde 2020",
+        "puesto": "Puesto: Emprendedora",
+        "actividades": "Actividades: Ventas, servicio al cliente,  creación de cuadros e ilustraciones"
+      },
+      {
+        "lugar": "Ilustradora Freelancer",
+        "img":"assets/img/iconoatly.png" ,
+        "donde": "Atly`s desde 2019",
+        "puesto": "Puesto: Ilustradora",
+        "actividades": "Actividades: Ilustradora digital, ventas, servicio al cliente"
+      },
+      {
+        "lugar": "Diseñadora Gráfica",
+        "img": "assets/img/cotizaciones.jpg",
+        "donde": "Atly`s desde 2019",
+        "puesto": "Puesto: Diseñadora Gráfica Digital",
+        "actividades": "Actividades: Publicidad y Marketing"
+      }
+    ],
+
+    "formacion": [
+      { 
+        "curso": "Certificado curso:",
+        "titulo": "Full Strack Developer Jr",
+        "img": "assets/img/arg-programa.png",
+        "finalizado": "Finalizado: Año 2022",
+        "dequien": "De: Argentina Programa" 
+      },
+      { 
+        "curso": "Certificado curso:",
+        "titulo": "Introducción a la Fotografia",
+        "img":"assets/img/cursofoto.png" ,
+        "finalizado": "Finalizado: Año 2020",
+        "dequien": "De: Universidad Nacional de Córdoba"      
+      },
+      { 
+        "curso": "Certificado curso:",
+        "titulo": "Edición Imagenes Digitales",
+        "img": "assets/img/gimp.jfif",
+        "finalizado": "Finalizado: Año 2021 ",
+        "dequien": "De: Dirección General De Educación Técnica y Formación Profesional"    
+      },
+      { 
+        "curso": "",
+        "titulo": "Secundario-Bachiller en Arte y Multimedia",
+        "img":"assets/img/logopbro.png" ,
+        "finalizado": "Finalizado: Año 2021. Destacada por exelencia académica-Abanderada",
+        "dequien": "De: Pbro. Jose Bonoris IPEM 165"      
+      }
+    ],
+
+    "habilidades": [
+      {
+      "habilidad":"Comunicación Efectiva ",
+      "Porcentaje":"100%"
+      },
+      {
+        "habilidad":"Resolución De Problematicas ",
+        "Porcentaje":"95%"
+      },
+      {
+        "habilidad":"Creatividad ",
+        "Porcentaje":"100%"
+      },
+      {
+        "habilidad":"Proactividad ",
+        "Porcentaje":"100%"
+      },
+      {
+        "habilidad":"After Effects ",
+        "tiempo":"1 año",
+        "Porcentaje":"100%"
+      },
+      {
+        "habilidad":"Sai ",
+        "tiempo":"7 años",
+        "Porcentaje":"100%"
+      },
+      {
+        "habilidad":"PhotoShop ",
+        "tiempo":"4 años",
+        "Porcentaje":"85%"
+      },
+      {
+        "habilidad":"Ilustrator ",
+        "tiempo":"5 meses",
+        "Porcentaje":"70%"
+      },
+      {
+        "habilidad":"HTML/CSS ",
+        "tiempo":"6 meses",
+        "Porcentaje":"80%"
+      },
+      {
+        "habilidad":"JavaScript ",
+        "tiempo":"1 año",
+        "Porcentaje":"60%"
+      }
+    ],
+
+    "video": [
+      {
+      "vid":"assets/img/Comp 1.mp4",
+      "Nombre": "Animation BONES",
+      "dato1":"Animación realizada con After Efects v2021",
+      "dato2":"Música: Bones-Imagine Dragons",
+      "dato3":"Animación Original",
+      "dato4":"Fecha de Realización: 25 Junio 2022",
+      "nombreboton": "Más Animaciones...",
+      "linkboton": "#animaciones"    
+      }],
+      "proyectos":[
+      {
+      "img":"assets/img/hada.jpg",
+      "Nombre": "La Luna",
+      "dato1":"Ilustración realizada con Paint Too Sai v2",
+      "dato2":"Paleta de colores frios expresando la inmensidad y calma de la luna mágica",
+      "dato3":"Personaje Original",
+      "dato4":"Fecha de Realización: 12 Agosto 2021",
+      "nombreboton": "Más Ilustraciones...",
+      "linkboton": "#ilustraciones"    
+
+    },
+    {
+      "img":"assets/img/cuadro.jpg",
+      "Nombre": "Cuadro THARJA",
+      "dato1":"Cuadro de Vidrio artesanal",
+      "dato2":"Pintado con técnica inversa Acrílico",
+      "dato3":"Personaje del juego Fire Emblem",
+      "dato4":"Fecha de Realización: 3 Marzo 2022",
+      "nombreboton": "Publicación en Instagram",
+      "linkboton": "https://www.instagram.com/p/CaqdvBsOsDG/" 
+    
+    },
+    {
+      "img":"assets/img/foto 1.jpg",
+      "Nombre": "Posavasos Personalizados",
+      "dato1":"Posavasos artesanales, con material reciclado",
+      "dato2":"Pintado con técnica inversa Acrílico",
+      "dato3":"Reforzada, máxima protección",
+      "dato4":"Fecha de Realización: 11 Octubre 2020", 
+      "nombreboton": "Instagram del Emprendimiento",
+      "linkboton": "https://www.instagram.com/atly.shop/"    
+    },
+    {
+      "img":"assets/img/portf.png",
+      "Nombre": "Portfolio Web",
+      "dato1":"Esta Página Web - Trabajo final de Programación",
+      "dato2":"Portfolio de presentación y Galería de trabajos",
+      "dato3":"Diseño de Frontend y Backend",
+      "dato4":"Fecha de Realización: 2022",
+      "nombreboton": "Perfil de Github",
+      "linkboton": "https://github.com/Miligomez23"   
+    }    
+    ],
+
+    "animaciones": [
+    {
+      "img":"assets/img/lui.mp4",
+      "Nombre": "La Espera (2020)",
+      "detalle": "Ilustración animada, uso de partículas y movimiento del personaje"
+    },
+    {
+      "img":"assets/img/tp3.mp4",
+      "Nombre": "El Samurai (2022)",
+      "detalle": "Animación de Libro Pop Up, uso de capas 3D, canción: Stay With Me"
+    },
+    {
+      "img":"assets/img/GRRRLSW.mp4",
+      "Nombre": "Grrrls-AViVA (2018)",
+      "detalle": "Animación con Ilustraciones 2D, canción: Grrrls-AViVA"
+    }],
+    "gift":[
+    {
+      "img":"assets/img/celu_2.gif",
+      "Nombre": "Práctica: Reflejo y 3D (2022)",
+      "detalle": "Celular girando, manejo de capas 3D"
+    },
+    {
+      "img":"assets/img/jett.gif",
+      "Nombre": "Práctica: Movimiento (2021)",
+      "detalle": "Base de animación tradicional, cuadro por cuadro, inspirado en Jett"
+    }
+    ],
+
+    "ilustraciones": [
+      {
+      "img":"assets/img/zero.jpg",
+      "Nombre": "Zero Two (2021)",
+      "detalle": "Zero Two FanArt, paleta cálida y divertida "
+    },
+    {
+      "img":"assets/img/UWUE.jpg",
+      "Nombre": "Ella (2021)",
+      "detalle": "Ilustración original, estilo anime con técnica simple lineart"
+    },
+    {
+      "img":"assets/img/atly (1).png",
+      "Nombre": "Atly Cyberpunk (2022)",
+      "detalle": "Autoretrato con estilo futurista, uso de la iluminación y vestimenta de látex"
+    },   
+    {
+      "img":"assets/img/flash bocet.jpg",
+      "Nombre": "La Mirada (2022)",
+      "detalle": "Boceto de práctica, técnica semirealista, colores calidos"
+    },
+    {
+      "img":"assets/img/atly (2).png",
+      "Nombre": "011 (2022",
+      "detalle": "Retrato de 011 serie Stranger Things, técnica realista"
+    },
+    {
+      "img":"assets/img/una billie.jpg",
+      "Nombre": "Cuidadora del Bosque (2022)",
+      "detalle": "Ilustración original, con ambiente cálido y manejo de la luz"
+    },
+    {
+      "img":"assets/img/lapiratita.jpg",
+      "Nombre": "Yazi La Pirata (2022)",
+      "detalle": "Ilustración Original, Diseño simple de pirata, sin volumen"
+    },
+    {
+      "img":"assets/img/c0sa rara.jpg",
+      "Nombre": "El Temor (2022)",
+      "detalle": "Ilustración rápida original de terror con contraste claro oscuro"
+    },
+    {
+      "img":"assets/img/atly (3).png",
+      "Nombre": "Soraka (2022)",
+      "detalle": "Soraka FanArt , estilo anime, con técnica de sombras duras"
+    }
+    ],
+    
+    
+    "title":"Atly's",
+    "contacto":"Para más información contactar por gmail:",
+    "mail":"mililgomez23@gmail.com"
+    
+    
+  }

@@ -1,1 +1,272 @@
-/* You can add global styles to this file, and also import other style files */
+
+ * {
+    padding: 0;
+     margin: 0;
+   }
+  
+
+   header {
+    background: rgba(219, 229, 232, 0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+.btn{
+    color: #ffffff;
+    background-color: #3dc5b1;
+   margin-left: 10px;
+   
+}
+.redes{
+    padding: 10px ;
+    padding-left: 10px;
+}
+a{
+    color: #3dc5b1;
+}
+    
+body { background: rgb(86, 86, 86);
+}
+
+#AcercaDeMi{
+    display: flex;
+}
+
+div#banner{
+    width: 100%;
+    max-height: 450px;
+    min-height: 100px;
+    background-color: #3dc5b1;
+
+}
+img#logo{
+    display: block;
+    margin: auto;
+    width: 41.5%;
+    max-width: 280px;
+    min-height: 100px;
+    
+}
+
+#subtitulo{
+    
+    font-size: 30px;
+    font-weight: 400;
+    color: #3dc5b1;
+}
+/*acerca de mi*/
+.paragraph{
+    margin-right: 10%;
+}
+.container-all {
+    margin-left: 60px;
+    margin-right: 60px;
+   display: grid;
+   font-size: 18px;
+   margin-top: 20px;
+   grid-template-columns: 1fr 1fr;
+}
+img#imagenmili{
+    width: 40%;
+    display:block;
+    margin: auto;
+
+
+    border-radius: 50%;
+    border:5px solid rgb(32, 247, 229);
+}
+
+/*portfolio*/
+#Portfolio{
+    margin-top: 100px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 100px;
+    
+}
+.contenedor{
+    display: grid;
+    padding-inline-end: 20px;
+    grid-template-columns: 20% 80%;
+   padding-bottom: 3ex; 
+}
+.contenedor img{
+    width: 80%;
+}
+
+/*colores de texto*/
+.listas{
+    font-size: 100;
+    color: #1e1e1e;
+}
+h3{
+    color: #3dc5b1;
+}
+#experiencia h1{
+    color: #ffffff;
+}
+#FormacionAcademica h1{
+    color: #ffffff;
+    margin-top: 100px;
+}
+#habilidades h1{
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+/*habilidades section*/
+
+#habilidades-section{
+    width:100% ;
+    height: auto;
+    padding: 80px - 13%;
+    background-color: #ffffff;
+}
+
+.skill-main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px ;
+    grid-row-gap:15px ;
+}
+.skill-main .skill-bar .info {
+    color: #c3c3c3;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.skill-main .skill-bar .info p small {
+color: #7d7d7d;
+
+}
+
+.skill-bar .info .porcent {
+    font-weight: bold;
+    color: #1f1f1f;
+}
+.skill-bar .bar{
+    width: 100%;
+    height: 10px;
+    position: relative;
+    background-color: #9c9c9c;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+.skill-bar .bar span{
+    width: 50%;
+   height: 100% ;
+    position:absolute;
+    background-color: #3dc5b1;
+    border-radius: 25px;
+}
+
+
+/*barras*/
+.skill-bar .bar .barra{
+    width: var(--w) ;
+    animation: problemas 5s;
+}
+@keyframes problemas {
+    0% {
+         width: 0;
+    }100%{
+        width: var(--w)
+    }
+}
+
+/**/
+
+#proyectos{
+    margin-top: 100px;
+    color: #ffffff;
+}
+/*animacion*/
+#animation{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#animation video{
+    margin: auto;
+    width: 100%;
+}
+/*ilustracion*/
+#ilustracion{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#hada {
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+}
+
+/*emprendimiento*/
+#emprend {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.emp{
+    margin-left: 10%;
+    margin-top: 40px;
+}
+
+#emprend img{
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+}
+ 
+#portfolio{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+#portfolio img{
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+}
+
+
+
+
+
+h1{
+    color: #ffffff;
+}
+#contenido{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#ilustraciones{
+    margin-top: 150px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #252525;
+    height: auto;
+    width: 100%;
+    padding-top: 50px;
+    color: #c3c3c3;
+    padding-bottom: 15px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-margin-top: 100px;
+   }
