@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavegacionComponent } from './componentes/navegacion/navegacion.component';
@@ -13,7 +12,19 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
 import { AnimacionesComponent } from './componentes/animaciones/animaciones.component';
 import { IlustracionesComponent } from './componentes/ilustraciones/ilustraciones.component';
 import { FooterComponent } from './componentes/footer/footer.component';
-import {HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './componentes/login/login.component';
+import { PorfolioComponent } from './componentes/porfolio/porfolio.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { interceptorProvider } from './servicios/interceptor-service';
+import { NewExperienciaComponent } from './componentes/experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './componentes/experiencia/edit-experiencia.component';
+import { NewformacionacademicaComponent } from './componentes/formacionacademica/newformacionacademica.component';
+import { EditformacionacademicaComponent } from './componentes/formacionacademica/editformacionacademica.component';
+import { EdithabilidadesComponent } from './componentes/habilidades/edithabilidades.component';
+import { NewhabilidadesComponent } from './componentes/habilidades/newhabilidades.component';
+import { EditacercadeComponent } from './componentes/acercademi/editacercade.component';
+
 
 @NgModule({
   declarations: [
@@ -27,14 +38,27 @@ import {HttpClientModule } from '@angular/common/http';
     ProyectosComponent,
     AnimacionesComponent,
     IlustracionesComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent,
+    PorfolioComponent,
+    NewExperienciaComponent,
+    EditExperienciaComponent,
+    NewformacionacademicaComponent,
+    EditformacionacademicaComponent,
+    EdithabilidadesComponent,
+    NewhabilidadesComponent,
+    EditacercadeComponent
   ],
   imports: [
+    
+    FormsModule,
+    ReactiveFormsModule ,
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+
   ],
-  providers: [],
+  providers: [ interceptorProvider ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

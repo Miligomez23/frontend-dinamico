@@ -1,17 +1,22 @@
 <section id="contenido">
 <section id="habilidades">
     <div class="header skill-head">
-        <h1>Habilidades Adquiridas</h1>
+        <h1>Habilidades Adquiridas</h1> <button type="button" class="btn me-md-2" routerLink="/newskill" *ngIf="isAdmin" >
+          Nueva Habilidad
+      </button>
     </div>
     <div class="skill-main">    
-      <div class="skill-bar" *ngFor="let habilidades of habilidadeslist">
+      <div class="skill-bar" *ngFor="let skill of skill">
         <div class="info">
-          <p>{{habilidades.habilidad}}<small>{{habilidades.tiempo}}</small></p>
-          <p class="porcent">{{habilidades.Porcentaje}}</p>
+          <p>{{skill.habilidad}}<small> {{skill.tiempo}}</small></p>
+          <p class="porcent">{{skill.porcentaje}}</p>
         </div>
         <div class="bar">
-          <span class="barra" style="--w:{{habilidades.Porcentaje}}"></span>
+          <span class="barra" style="--w:{{skill.porcentaje}}"></span>
         </div>
+        <br>
+        <button type="button" class="btn me-md-2" routerLink="/editskill/{{skill.id}}" *ngIf="isAdmin"><i class="bi bi-pencil"></i> </button>
+              <button type="button" class="btn me-md-2"  *ngIf="isAdmin" (click)="delete(skill.id)"><i class="bi bi-x-square"></i> </button>
       </div>
 
     </div>

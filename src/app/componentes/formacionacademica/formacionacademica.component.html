@@ -1,15 +1,21 @@
 <section id="contenido">
 <section id="FormacionAcademica">
-    <h1>Formación Académica</h1>
+    <h1>Formación Académica</h1> <button type="button" class="btn me-md-2" routerLink="/nuevaedu" *ngIf="isAdmin" >
+        Nueva Formación Académica
+    </button>
+
         <ul style="list-style-type: none">
-           <li *ngFor="let formacion of formacionlist">
-            <h3><small> {{formacion.curso}} </small> {{formacion.titulo}}</h3>
-             <div class="contenedor"><img [src]="formacion.img" alt="argentinaprogramalogo"class="imgacademic">
-                <ul class="listas"><li>{{formacion.finalizado}}</li> 
-                   <li>{{formacion.dequien}}</li>
+           <li *ngFor="let Educacion of educacion">
+            <h3><small> {{Educacion.curso}} </small> {{Educacion.titulo}}</h3>
+             <div class="contenedor"><img [src]="Educacion.img" alt="imgacademic"class="imgacademic">
+                <ul class="listas"><li>Finalizado: {{Educacion.finalizado}}</li> 
+                   <li>De: {{Educacion.dequien}}</li>
                 </ul> 
             </div>
+            <button type="button" class="btn me-md-2" routerLink="/editedu/{{Educacion.id}}" *ngIf="isAdmin"><i class="bi bi-pencil"></i> Editar</button>
+              <button type="button" class="btn me-md-2"  *ngIf="isAdmin" (click)="delete(Educacion.id)"><i class="bi bi-x-square"></i> Eliminar</button>
             </li> 
+
         </ul>
  </section>
 </section>

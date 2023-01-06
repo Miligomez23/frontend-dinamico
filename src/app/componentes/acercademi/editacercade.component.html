@@ -1,0 +1,47 @@
+<div class="container" *ngIf="persona" style="margin-top: 20px;">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <label for="name"><h3>Nombre</h3></label>
+                    <input type="text" class="form-control" id="name" name="name" [(ngModel)]="persona.name" required>
+                </div>
+                <div class="form-group">
+                    <label for="alias"><h3>Alias</h3></label>
+                    <input type="text" class="form-control" id="alias" name="alias" [(ngModel)]="persona.alias" required>
+                </div>
+                <div class="form-group">
+                    <label for="titulo"><h3>Titulo</h3></label>
+                    <input type="text" class="form-control" id="titulo" name="titulo" [(ngModel)]="persona.titulo" required>
+                </div>
+                <div class="form-group">
+                    <label for="acercademi"><h3>Descripción</h3></label>
+                    <input type="text" class="form-control" id="acercademi" name="acercademi" [(ngModel)]="persona.acercademi" required>
+                </div>
+                <div class="form-group">
+                    <label for="bannering"><h3>Imagen del Banner</h3></label>
+                    <input type="file" class="form-control" id="bannering" name="bannering" [(ngModel)]="persona.bannerimg" (change)="uploadImage($event)" accept=".jpg .png .jpeg">
+                </div>
+                <div class="form-group">
+                    <label for="imgpersona"><h3>Imagen de la Persona</h3></label>
+                    <input type="file" class="form-control" id="imgpersona" name="imgpersona" [(ngModel)]="persona.imgpersona" (change)="uploadImage($event)" accept=".jpg .png .jpeg">
+                </div>
+                <div class="form-group">
+                    <label for="nombrecontacto"><h3>Titulo del contacto</h3></label>
+                    <input type="text" class="form-control" id="nombrecontacto" name="nombrecontacto" [(ngModel)]="persona.nombrecontacto" required>
+                </div>
+                <div class="form-group">
+                    <label for="contacto"><h3>Contacto Mensaje</h3></label>
+                    <input type="text" class="form-control" id="contacto" name="contacto" [(ngModel)]="persona.contacto" required>
+                </div>
+                <div class="form-group">
+                    <label for="mail"><h3>Mail</h3></label>
+                    <input type="text" class="form-control" id="mail" name="mail" [(ngModel)]="persona.mail" required>
+                </div>
+                <button class="btn btn-primary" style="margin-top: 20px;">
+                    Actualizar Persona
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -2,7 +2,7 @@
   "bannerimg":"assets/img/LOGO.jpg",
   "imgpersona":"assets/img/mili.png",
     "name": "Milagros Gomez",
-    "alias": "/Alias: ATLY",
+    "alias": "ATLY",
     "titulo": "Full Stack Developer Jr",
     "acercademi": "Tengo 18 años, soy una persona responsable y puntual, con alta capacidad de solución de problemas, y mucha creatividad. Me dedico a la animación, ilustración y programación.",
     "experiencia": [
@@ -10,22 +10,22 @@
         "lugar": "MicroEmprendimiento Personal",
         "img":"assets/img/LOGO.jpg" ,
         "donde": "AtlyShop desde 2020",
-        "puesto": "Puesto: Emprendedora",
-        "actividades": "Actividades: Ventas, servicio al cliente,  creación de cuadros e ilustraciones"
+        "puesto": "Emprendedora",
+        "actividades": "Ventas, servicio al cliente,  creación de cuadros e ilustraciones"
       },
       {
         "lugar": "Ilustradora Freelancer",
         "img":"assets/img/iconoatly.png" ,
         "donde": "Atly`s desde 2019",
-        "puesto": "Puesto: Ilustradora",
-        "actividades": "Actividades: Ilustradora digital, ventas, servicio al cliente"
+        "puesto":"Ilustradora",
+        "actividades": "Ilustradora digital, ventas, servicio al cliente"
       },
       {
         "lugar": "Diseñadora Gráfica",
         "img": "assets/img/cotizaciones.jpg",
         "donde": "Atly`s desde 2019",
-        "puesto": "Puesto: Diseñadora Gráfica Digital",
-        "actividades": "Actividades: Publicidad y Marketing"
+        "puesto": "Diseñadora Gráfica Digital",
+        "actividades": "Publicidad y Marketing"
       }
     ],
 
@@ -34,76 +34,76 @@
         "curso": "Certificado curso:",
         "titulo": "Full Strack Developer Jr",
         "img": "assets/img/arg-programa.png",
-        "finalizado": "Finalizado: Año 2022",
-        "dequien": "De: Argentina Programa" 
+        "finalizado": "Año 2022",
+        "dequien": "Argentina Programa" 
       },
       { 
         "curso": "Certificado curso:",
         "titulo": "Introducción a la Fotografia",
         "img":"assets/img/cursofoto.png" ,
-        "finalizado": "Finalizado: Año 2020",
-        "dequien": "De: Universidad Nacional de Córdoba"      
+        "finalizado": "Año 2020",
+        "dequien": "Universidad Nacional de Córdoba"      
       },
       { 
         "curso": "Certificado curso:",
         "titulo": "Edición Imagenes Digitales",
         "img": "assets/img/gimp.jfif",
-        "finalizado": "Finalizado: Año 2021 ",
-        "dequien": "De: Dirección General De Educación Técnica y Formación Profesional"    
+        "finalizado": "Año 2021 ",
+        "dequien": "Dirección General De Educación Técnica y Formación Profesional"    
       },
       { 
         "curso": "",
         "titulo": "Secundario-Bachiller en Arte y Multimedia",
         "img":"assets/img/logopbro.png" ,
-        "finalizado": "Finalizado: Año 2021. Destacada por exelencia académica-Abanderada",
-        "dequien": "De: Pbro. Jose Bonoris IPEM 165"      
+        "finalizado": "Año 2021. Destacada por exelencia académica-Abanderada",
+        "dequien": "Pbro. Jose Bonoris IPEM 165"      
       }
     ],
 
     "habilidades": [
       {
-      "habilidad":"Comunicación Efectiva ",
+      "habilidad":"Comunicación Efectiva",
       "Porcentaje":"100%"
       },
       {
-        "habilidad":"Resolución De Problematicas ",
+        "habilidad":"Resolución De Problemas",
         "Porcentaje":"95%"
       },
       {
-        "habilidad":"Creatividad ",
+        "habilidad":"Creatividad",
         "Porcentaje":"100%"
       },
       {
-        "habilidad":"Proactividad ",
+        "habilidad":"Proactividad",
         "Porcentaje":"100%"
       },
       {
-        "habilidad":"After Effects ",
+        "habilidad":"After Effects",
         "tiempo":"1 año",
         "Porcentaje":"100%"
       },
       {
-        "habilidad":"Sai ",
+        "habilidad":"Sai",
         "tiempo":"7 años",
         "Porcentaje":"100%"
       },
       {
-        "habilidad":"PhotoShop ",
+        "habilidad":"PhotoShop",
         "tiempo":"4 años",
         "Porcentaje":"85%"
       },
       {
-        "habilidad":"Ilustrator ",
+        "habilidad":"Ilustrator",
         "tiempo":"5 meses",
         "Porcentaje":"70%"
       },
       {
-        "habilidad":"HTML/CSS ",
+        "habilidad":"HTML/CSS",
         "tiempo":"6 meses",
         "Porcentaje":"80%"
       },
       {
-        "habilidad":"JavaScript ",
+        "habilidad":"JavaScript",
         "tiempo":"1 año",
         "Porcentaje":"60%"
       }
@@ -243,7 +243,7 @@
     ],
     
     
-    "title":"Atly's",
+    "nombrecontacto":"Atly's",
     "contacto":"Para más información contactar por gmail:",
     "mail":"mililgomez23@gmail.com"
     

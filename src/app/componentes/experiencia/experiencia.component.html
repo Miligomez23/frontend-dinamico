@@ -1,14 +1,19 @@
 <section id="contenido">
 <section id="experiencia">
-    <div><h1>Experiencia</h1></div>
+    <div><h1>Experiencia</h1> <button type="button" class="btn me-md-2" routerLink="/nuevaexp" *ngIf="isAdmin" >
+            Nueva Experiencia
+        </button></div>
+
         <ul style="list-style-type: none">
-            <li *ngFor="let experiencia of experiencialist" ><h3>{{experiencia.lugar}}</h3>
-              <div class="contenedor"><img [src]="experiencia.img" alt="logoatlyshop" />
-                  <ul class="listas"><li>{{experiencia.donde}}</li>
-                        <li>{{experiencia.puesto}}</li>  
-                        <li>{{experiencia.actividades}}</li>
-                 </ul> 
+            <li *ngFor="let Experiencia of expe" ><h3>{{Experiencia.lugar}}</h3>
+              <div class="contenedor"><img [src]="Experiencia.img" alt="logoatlyshop" />
+                  <ul class="listas"><li>{{Experiencia.donde}}</li>
+                        <li>Puesto: {{Experiencia.puesto}}</li>  
+                        <li>Actividades: {{Experiencia.actividades}}</li>
+                 </ul>                                
               </div>
+              <button type="button" class="btn me-md-2" routerLink="/editexp/{{Experiencia.id}}" *ngIf="isAdmin"><i class="bi bi-pencil"></i> Editar</button>
+              <button type="button" class="btn me-md-2"  *ngIf="isAdmin" (click)="delete(Experiencia.id)"><i class="bi bi-x-square"></i> Eliminar</button>
             </li>
         </ul>  
 </section>
