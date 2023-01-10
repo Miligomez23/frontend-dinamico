@@ -24,6 +24,9 @@ import { EditformacionacademicaComponent } from './componentes/formacionacademic
 import { EdithabilidadesComponent } from './componentes/habilidades/edithabilidades.component';
 import { NewhabilidadesComponent } from './componentes/habilidades/newhabilidades.component';
 import { EditacercadeComponent } from './componentes/acercademi/editacercade.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideStorage,getStorage } from '@angular/fire/storage';
 
 
 @NgModule({
@@ -56,6 +59,8 @@ import { EditacercadeComponent } from './componentes/acercademi/editacercade.com
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideStorage(() => getStorage()),
 
   ],
   providers: [ interceptorProvider ],

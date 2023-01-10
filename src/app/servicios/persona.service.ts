@@ -10,7 +10,7 @@ import { persona } from '../model/persona.model';
 })
 
 export class PersonaService {
-  URL = environment.URL +'personas/';
+  URL = 'https://backend-portfolio-zraf.onrender.com/personas/';
 
   constructor(private httpClient: HttpClient) { }
 
@@ -26,7 +26,7 @@ export class PersonaService {
     return this.httpClient.post<any>(this.URL + 'create', educacion);
   }*/
 
-  public update(id: number, educacion: persona): Observable<any>{
+  public update(id: number, persona: persona): Observable<any>{
     return this.httpClient.put<any>(this.URL + `update/${id}`, persona);
   }
 /*
